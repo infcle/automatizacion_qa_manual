@@ -40,3 +40,19 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+4. para pruebas no funcionales
+
+```bash
+pip install locust
+```
+
+---
+
+Para locus se lo hace correr con el siguiente comando
+
+```bash
+locust -f no_funcional.py
+```
+
+entrar al <http://localhost:8089>
